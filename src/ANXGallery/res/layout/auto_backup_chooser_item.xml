@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gallery.ui.AutoBackupChooserItem android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_album_item_margin_top" style="@style/Gallery.Widget.ListView.AlbumList.Item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.gallery.widget.ForegroundImageView android:id="@id/album_cover" android:layout_marginTop="@dimen/list_album_item_cover_margin_top" android:layout_marginBottom="@dimen/horizontal_spacing_secondary" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="@dimen/album_vertical_head_item_margin_start" android:layout_marginEnd="@dimen/horizontal_spacing_huge" android:layout_alignParentStart="true" app:foregroundDrawable="@drawable/album_page_list_rect_item_fg" style="@style/Gallery.Widget.ThumbNail.Small"
+      xmlns:app="http://schemas.android.com/apk/res/com.miui.gallery" />
+    <miui.widget.SlidingButton android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/album_hidden_item_button_margin_end_value" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/check_box" android:layout_toEndOf="@id/album_cover">
+        <TextView android:id="@id/album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/Gallery.TextAppearance.List.Primary.Custom" />
+        <TextView android:gravity="center" android:id="@id/album_photo_count_and_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/Gallery.TextAppearance.List.Value.Custom" />
+    </LinearLayout>
+</com.miui.gallery.ui.AutoBackupChooserItem>

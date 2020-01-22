@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_secret_ensure_message">
+        <item quantity="other">Бұл файлдар жасырылсын ба?</item>
+        <item quantity="one">Hide this file?</item>
+    </plurals>
+    <plurals name="add_to_album_cloud_photo_count_tip">
+        <item quantity="other">%d бұлт суреті қосылды, көру үшін «Тек жергілікті альбомдарды көрсету» функциясын өшіріңіз.</item>
+        <item quantity="one">%d бұлт суреті қосылды, көру үшін «Тек жергілікті альбомдарды көрсету» функциясын өшіріңіз.</item>
+    </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">%2$d элемент альбомға қосыла алмайды. %1$s.</item>
+        <item quantity="one">"%2$d item can't be added to album. %1$s."</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d элемент жасырын альбомға қосыла алмайды. %1$s.</item>
+        <item quantity="one">"%2$d item can't be added to hidden album. %1$s."</item>
+    </plurals>
+    <plurals name="age_day">
+        <item quantity="other">%d күн</item>
+        <item quantity="one">%d күн</item>
+    </plurals>
+    <plurals name="age_month">
+        <item quantity="other">%d ай</item>
+        <item quantity="one">%d ай</item>
+    </plurals>
+    <plurals name="age_year">
+        <item quantity="other">%d жыл</item>
+        <item quantity="one">%d жыл</item>
+    </plurals>
+    <plurals name="album_already_share_user_count">
+        <item quantity="other">%d адамға қол жетімді</item>
+        <item quantity="one">%d адамға қол жетімді</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="other">%d сурет</item>
+        <item quantity="one">%d сурет</item>
+    </plurals>
+    <plurals name="album_count_and_size">
+        <item quantity="other">%1$d элемент | %2$s</item>
+        <item quantity="one">%1$d item | %2$s</item>
+    </plurals>
+    <plurals name="album_item_msg_format">
+        <item quantity="other">(%d элемент)</item>
+        <item quantity="one">(%d элемент)</item>
+    </plurals>
+    <plurals name="album_photo_count_text">
+        <item quantity="other">%1$d элемент</item>
+        <item quantity="one">%1$d элемент</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_new_pictures">
+        <item quantity="other">%1$d фотосуреті %2$s қосылады</item>
+        <item quantity="one">%1$d photo of %2$s will be added</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_old_pictures">
+        <item quantity="other">%1$d фотосуреті %2$s қосылады</item>
+        <item quantity="one">%1$d photo of %2$s will be added</item>
+    </plurals>
+    <plurals name="backup_after_hours">
+        <item quantity="other">%d сағаттан кейін сақтық көшірмені жасауды жалғастыру</item>
+        <item quantity="one">%d сағаттан кейін сақтық көшірмені жасауды жалғастыру</item>
+    </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d элемент сақтық көшірме жасау үшін тым үлкен</item>
+        <item quantity="one">%d элемент сақтық көшірме жасау үшін тым үлкен</item>
+    </plurals>
+    <plurals name="backup_pause_desc">
+        <item quantity="other">%d минуттан кейін жалғастырылады</item>
+        <item quantity="one">%d минуттан кейін жалғастырылады</item>
+    </plurals>
+    <plurals name="backup_pause_dialog_message">
+        <item quantity="other">Суреттерді, видеоларды, контактілерді, жазбаларды, және басқа да элементтерді үндестіруді %d минутқа тоқтату.</item>
+        <item quantity="one">Суреттерді, видеоларды, контактілерді, жазбаларды, және басқа да элементтерді үндестіруді %d минутқа тоқтату.</item>
+    </plurals>
+    <plurals name="backuping_desc_gprs">
+        <item quantity="other">%1$d сурет немесе видео | %2$s</item>
+        <item quantity="one">%1$d сурет немесе видео | %2$s</item>
+    </plurals>
+    <plurals name="backuping_desc_normal">
+        <item quantity="other">%1$d сурет немесе видео</item>
+        <item quantity="one">%1$d сурет немесе видео</item>
+    </plurals>
+    <plurals name="burst_image_download_item_title_count">
+        <item quantity="other">%d фотосурет</item>
+        <item quantity="one">%d фотосурет</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_message">
+        <item quantity="other">%d сіз таңдамаған сурет жойылсын ба?</item>
+        <item quantity="one">%d сіз таңдамаған сурет жойылсын ба?</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_title">
+        <item quantity="other">%d суретті жою</item>
+        <item quantity="one">%d суретті жою</item>
+    </plurals>
+    <plurals name="burst_save_selected">
+        <item quantity="other">%d таңдалған суретті сақтау</item>
+        <item quantity="one">%d таңдалған суретті сақтау</item>
+    </plurals>
+    <plurals name="cloud_storage_photo_num">
+        <item quantity="other">%d сурет</item>
+        <item quantity="one">%d сурет</item>
+    </plurals>
+    <plurals name="cloud_storage_video_num">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+    </plurals>
+    <plurals name="collage_select_image_dynamic_range">
+        <item quantity="other">Коллаждар 1-%d фотодан тұра алады</item>
+        <item quantity="one">Коллаждар 1-%d фотодан тұра алады</item>
+    </plurals>
+    <plurals name="creation_max_image">
+        <item quantity="other">%d фотосуретке дейін таңдаңыз</item>
+        <item quantity="one">%d фотосуретке дейін таңдаңыз</item>
+    </plurals>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d элемент таңдалды</item>
+        <item quantity="one">%d элемент таңдалды</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">%d сериялық түсірме Xiaomi Cloud және басқа да синхрондалған құрылғылардан жойылсын ба?</item>
+        <item quantity="one">%d сериялық түсірме Xiaomi Cloud және басқа да синхрондалған құрылғылардан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_local">
+        <item quantity="other">%d сериялық түсірме жойылсын ба?</item>
+        <item quantity="one">%d сериялық түсірме жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">%d сериялық түсірме Xiaomi Cloud және осы құрылғыдан жойылсын ба?</item>
+        <item quantity="one">%d сериялық түсірме Xiaomi Cloud және осы құрылғыдан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_finish_format">
+        <item quantity="other">%d элемент жойылды</item>
+        <item quantity="one">%d элемент жойылды</item>
+    </plurals>
+    <plurals name="delete_media_from_all_devices_and_cloud_msg">
+        <item quantity="other">%d элемент барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d элемент барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_media_from_local">
+        <item quantity="other">%d элементтер жойылсын ба?</item>
+        <item quantity="one">%d элемент жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_media_from_this_album_and_cloud_msg">
+        <item quantity="other">%d элемент осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d элемент осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">%d фотосурет барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d фотосурет барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_photo_from_local">
+        <item quantity="other">%d сурет жойылсын ба?</item>
+        <item quantity="one">%d сурет жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">%d фотосурет осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d фотосурет осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_third_party_burst_photo">
+        <item quantity="other">%d сериялық түсірме сіздің құрылғыңыздан жойылсын ба?</item>
+        <item quantity="one">%d сериялық түсірме сіздің құрылғыңыздан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_video_from_all_devices_and_cloud_msg">
+        <item quantity="other">%d видео барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d видео барлық құрылғылардан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_video_from_local">
+        <item quantity="other">%d видео жойылсын ба?</item>
+        <item quantity="one">%d видео жойылсын ба?</item>
+    </plurals>
+    <plurals name="delete_video_from_this_album_and_cloud_msg">
+        <item quantity="other">%d видео осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+        <item quantity="one">%d видео осы альбомнан және Xiaomi Cloud-тан жойылсын ба?</item>
+    </plurals>
+    <plurals name="download_error">
+        <item quantity="other">%1$d файлды жүктеу мүмкін болмады</item>
+        <item quantity="one">"Couldn't download %1$d file"</item>
+    </plurals>
+    <plurals name="download_retry_message">
+        <item quantity="other">%1$d файл жүктеу мүмкін болмады, қосылысты тексеріп әрекетті қайталаңыз</item>
+        <item quantity="one">"Couldn't download %1$d file, check network connection and try again"</item>
+    </plurals>
+    <plurals name="face_count">
+        <item quantity="other">Барлығы %d сурет</item>
+        <item quantity="one">Барлығы %d сурет</item>
+    </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">Фотосурет өңделуде…</item>
+        <item quantity="one">Processing photo…</item>
+    </plurals>
+    <plurals name="fast_share_auto_render_failed">
+        <item quantity="other">Көрсете алмайтын %1$d фотосурет өткізіп жіберілген.</item>
+        <item quantity="one">"Skipped a photo which couldn't be rendered."</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d файл</item>
+        <item quantity="one">%1$d файл</item>
+    </plurals>
+    <plurals name="number_of_images_and_videos_to_upload">
+        <item quantity="other">%1$d элемент үндестіруді күтуде</item>
+        <item quantity="one">%1$d элемент үндестіруді күтуде</item>
+    </plurals>
+    <plurals name="number_of_images_synced">
+        <item quantity="other">%1$d фотосуреттер</item>
+        <item quantity="one">1 photo</item>
+    </plurals>
+    <plurals name="number_of_images_to_upload">
+        <item quantity="other">%1$d сурет үндестіруді күтуде</item>
+        <item quantity="one">%1$d сурет үндестіруді күтуде</item>
+    </plurals>
+    <plurals name="number_of_uploading_images">
+        <item quantity="other">%1$d суретті үндестіру…</item>
+        <item quantity="one">%1$d суретті үндестіру…</item>
+    </plurals>
+    <plurals name="number_of_uploading_images_and_videos">
+        <item quantity="other">%1$d элементті үндестіру…</item>
+        <item quantity="one">%1$d элементті үндестіру…</item>
+    </plurals>
+    <plurals name="number_of_uploading_videos">
+        <item quantity="other">%1$d видеоны үндестіру…</item>
+        <item quantity="one">%1$d видеоны үндестіру…</item>
+    </plurals>
+    <plurals name="number_of_videos_synced">
+        <item quantity="other">%1$d видео</item>
+        <item quantity="one">1 видео</item>
+    </plurals>
+    <plurals name="number_of_videos_to_upload">
+        <item quantity="other">%1$d видео үндестіруді күтуде</item>
+        <item quantity="one">%1$d видео үндестіруді күтуде</item>
+    </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Барлығы %1$d элемент</item>
+        <item quantity="one">Барлығы %1$d элемент</item>
+    </plurals>
+    <plurals name="picker_all_image_need_download">
+        <item quantity="other">Таңдалған фотосурет құрылғыда жоқ. Оны мобильді деректер арқылы жүктеп алу керек пе?</item>
+        <item quantity="one">"Selected photo isn't on device. Download it using mobile data?"</item>
+    </plurals>
+    <plurals name="picker_all_image_will_download">
+        <item quantity="other">Таңдалған фотосурет құрылғыда жоқ. Ол жүктеледі.</item>
+        <item quantity="one">"Selected photo isn't on device. It will be downloaded."</item>
+    </plurals>
+    <plurals name="picker_all_origin_need_download">
+        <item quantity="other">Таңдалған фотосуреттер (%dMB) құрылғыда жоқ. Оны мобильді деректер арқылы жүктеп алу керек пе?</item>
+        <item quantity="one">Таңдалған фотосуреттер (%dMB) құрылғыда жоқ. Оны мобильді деректер арқылы жүктеп алу керек пе?</item>
+    </plurals>
+    <plurals name="picker_cancel_confirm_message">
+        <item quantity="other">Қалған %d фотосуреттерді жүктеуді болдырмау керек пе?</item>
+        <item quantity="one">Қалған фотосуретті жүктеуді болдырмау керек пе?</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_image_confirm_message">
+        <item quantity="other">%1$d фотосуреттерді жүктеу мүмкін болмады, желіге қосылып, әрекетті қайталаңыз</item>
+        <item quantity="one">"Couldn't download photo, connect to the network and try again"</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_origin_confirm_message">
+        <item quantity="other">%1$d фотосуреттерді жүктеу мүмкін болмады (%2$dMB), желіге қосылып, әрекетті қайталаңыз</item>
+        <item quantity="one">"Couldn't download photo (%2$dMB), connect to the network and try again"</item>
+    </plurals>
+    <plurals name="picker_retry_image_confirm_message">
+        <item quantity="other">%1$d фотосуретті жүктеу мүмкін емес, әрекетті қайталап көргініз келе ме?</item>
+        <item quantity="one">"Couldn't download photo, try again?"</item>
+    </plurals>
+    <plurals name="picker_retry_origin_confirm_message">
+        <item quantity="other">%1$d фотосуреттерді жүктеу мүмкін болмады (%2$d Мб), қайталап көру керек пе?</item>
+        <item quantity="one">"Couldn't download photo (%2$dMB), try again?"</item>
+    </plurals>
+    <plurals name="picker_skip_unavailable_images">
+        <item quantity="other">Құрылғыда жоқ %d фотосурет өткізіп жіберілді.</item>
+        <item quantity="one">Құрылғыда жоқ фотосурет өткізіп жіберілді.</item>
+    </plurals>
+    <plurals name="quickly_discovery_message_format">
+        <item quantity="other">%1$d жаңа сурет табылды</item>
+        <item quantity="one">Found a new photo</item>
+    </plurals>
+    <plurals name="remind_face_recommend_confirm_text">
+        <item quantity="other">Барлығы %d фотосурет</item>
+        <item quantity="one">Total %d photo</item>
+    </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d элемент жасырын альбомнан жойыла алмайды. %1$s.</item>
+        <item quantity="one">"%2$d item can't be removed from hidden album. %1$s."</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_negative">
+        <item quantity="other">\"%2$s\" және дерекқорға %1$d фотосурет қосылды.</item>
+        <item quantity="one">Added %1$d photo to \"%2$s\" and added to the database.</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_positive">
+        <item quantity="other">«%2$s»-дан %1$d фотосурет жойылып, дерекқорға қосылды.</item>
+        <item quantity="one">Removed %1$d photo from \"%2$s\" and added to the database.</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_false_negative">
+        <item quantity="other">\"%2$s\"-ға %1$d фотосурет қосылды.</item>
+        <item quantity="one">Added %1$d photo to \"%2$s\".</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_false_positive">
+        <item quantity="other">«%2$s»-дан %1$d фотосурет жойылды.</item>
+        <item quantity="one">Removed %1$d photo from \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">Бөлісу мүмкін болмады. %d фотосурет әлі өңделуде…</item>
+        <item quantity="one">Бөлісу мүмкін болмады. %d фотосурет әлі өңделуде…</item>
+    </plurals>
+    <plurals name="slideshow_interval_value">
+        <item quantity="other">%1$d секунд</item>
+        <item quantity="one">%1$d секунд</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">%d сурет оңтайландырылды</item>
+        <item quantity="one">%d сурет оңтайландырылды</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">%d сурет оңтайландырылмады. Қазір тоқтатылсын ба?</item>
+        <item quantity="one">%d сурет оңтайландырылмады. Қазір тоқтатылсын ба?</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d сурет қалды</item>
+        <item quantity="one">%d сурет қалды</item>
+    </plurals>
+    <plurals name="sync_error_title">
+        <item quantity="other">%d сурет немесе видеоның сақтық көшірмесі жасалмаған</item>
+        <item quantity="one">%d сурет немесе видеоның сақтық көшірмесі жасалмаған</item>
+    </plurals>
+    <plurals name="sync_oversized_count">
+        <item quantity="other">%d элемент сақтық көшірме жасау үшін тым үлкен</item>
+        <item quantity="one">%d элемент сақтық көшірме жасау үшін тым үлкен</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d элемент</item>
+        <item quantity="one">%d элемент</item>
+    </plurals>
+    <plurals name="video_count_format">
+        <item quantity="other">%1$d файл</item>
+        <item quantity="one">%1$d файл</item>
+    </plurals>
+</resources>

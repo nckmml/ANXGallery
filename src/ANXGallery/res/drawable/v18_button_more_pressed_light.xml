@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/action_button_height" android:width="@dimen/action_button_width" android:autoMirrored="true" android:viewportWidth="74.0" android:viewportHeight="74.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/svg_icon_color_pressed" android:pathData="M36.5,62C21.8645,62 10,50.1355 10,35.5C10,20.8645 21.8645,9 36.5,9C51.1355,9 63,20.8645 63,35.5C63,50.1355 51.1355,62 36.5,62ZM36.5,58C48.9264,58 59,47.9264 59,35.5C59,23.0736 48.9264,13 36.5,13C24.0736,13 14,23.0736 14,35.5C14,47.9264 24.0736,58 36.5,58ZM27,38C25.3431,38 24,36.6569 24,35C24,33.3431 25.3431,32 27,32C28.6569,32 30,33.3431 30,35C30,36.6569 28.6569,38 27,38ZM37,38C35.3431,38 34,36.6569 34,35C34,33.3431 35.3431,32 37,32C38.6569,32 40,33.3431 40,35C40,36.6569 38.6569,38 37,38ZM47,38C45.3431,38 44,36.6569 44,35C44,33.3431 45.3431,32 47,32C48.6569,32 50,33.3431 50,35C50,36.6569 48.6569,38 47,38Z" android:fillType="evenOdd" />
+</vector>

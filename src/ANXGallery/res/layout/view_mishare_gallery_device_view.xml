@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/view_device_base" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_divider_start" android:layout_width="@dimen/divider_gallery_device_start" android:layout_height="fill_parent" />
+    <View android:id="@id/view_divider" android:layout_width="@dimen/divider_gallery_device" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/size_scanned_device_with_name" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rl_device_icon" android:background="@drawable/bg_scanned_device_xiaomi" android:layout_width="@dimen/size_scanned_device" android:layout_height="@dimen/size_scanned_device">
+            <View android:id="@id/view_phone" android:background="@drawable/bg_scanned_device_xiaomi_phone" android:visibility="gone" android:layout_width="@dimen/scanned_device_phone_width" android:layout_height="@dimen/scanned_device_phone_height" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_pc" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_device_pc" android:layout_centerInParent="true" android:contentDescription="@string/device_type_pc" />
+            <ImageView android:id="@id/iv_sending_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_device_sending" android:contentDescription="@string/file_sending" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/device_name_margin_top">
+            <TextView android:textSize="@dimen/textsize_gallery_device_name" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/textsize_gallery_device_name" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_device_model" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_divider_right" android:layout_width="@dimen/divider_gallery_device_end" android:layout_height="fill_parent" />
+</LinearLayout>

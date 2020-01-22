@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="device_list_height">103.0dip</dimen>
+    <dimen name="prompt_switch_height">55.379974dip</dimen>
+</resources>

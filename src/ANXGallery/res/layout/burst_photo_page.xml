@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/slip_layout" android:background="@color/burst_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_part" android:background="@color/burst_background_top_color" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/burst_title_size" android:textColor="@color/burst_photo_choice_title_color" android:gravity="center_horizontal" android:layout_gravity="top" android:id="@id/choice_title" android:paddingTop="@dimen/burst_title_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.miui.gallery.widget.GalleryViewPager android:id="@id/photo_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/burst_pager_margin_top_bottom" android:layout_marginBottom="@dimen/burst_pager_margin_top_bottom" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/photo_detail_preview" android:paddingTop="@dimen/burst_preview_padding_top" android:paddingBottom="@dimen/burst_preview_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

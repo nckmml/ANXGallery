@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/assistant_page_header_grid_top_divider_line_background" android:layout_width="fill_parent" android:layout_height="@dimen/assistant_page_header_grid_divider_line_height" android:shape="rectangle" />
+    <GridView android:id="@id/album_page_header_grid_view" android:background="@color/assistant_page_grid_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Gallery.Widget.GridView.AlbumPageHeader"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <View android:background="@color/assistant_page_header_grid_bottom_divider_line_background" android:layout_width="fill_parent" android:layout_height="@dimen/assistant_page_header_grid_divider_line_height" android:shape="rectangle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/album_page_header_grid_view" />
+</LinearLayout>

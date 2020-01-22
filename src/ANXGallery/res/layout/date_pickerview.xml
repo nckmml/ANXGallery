@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/pickers" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/year" android:layout="@layout/date_numberpicker_layout" android:inflatedId="@id/year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/date_picker_label_year" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/month" android:layout="@layout/date_numberpicker_layout" android:inflatedId="@id/month" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/date_picker_label_month" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/day" android:layout="@layout/date_numberpicker_layout" android:inflatedId="@id/day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/date_picker_label_day" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/hour" android:layout="@layout/date_numberpicker_layout" android:inflatedId="@id/hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/time_picker_label_hour" android:layout_weight="1.0" />
+    <ViewStub android:id="@id/minute" android:layout="@layout/date_numberpicker_layout" android:inflatedId="@id/minute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/time_picker_label_minute" android:layout_weight="1.0" />
+</LinearLayout>

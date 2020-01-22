@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/special_type_enter" android:background="@drawable/special_type_enter_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/specify_type_enter_bg_height_cn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/specify_type_enter_text_padding_start" />
+    <TextView android:textSize="@dimen/specify_type_enter_text_size" android:textColor="@color/special_type_enter_text_color" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/specify_type_enter_text_drawable_padding" android:layout_marginEnd="@dimen/specify_type_enter_text_padding_end" />
+</LinearLayout>

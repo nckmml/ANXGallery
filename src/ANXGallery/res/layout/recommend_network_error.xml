@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_error_common" android:contentDescription="@null" />
+        <TextView android:ellipsize="middle" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vertical_spacing_huge" android:layout_marginBottom="@dimen/vertical_spacing_very_huge" android:text="@string/hybrid_network_unavaliable" android:maxLines="2" android:paddingStart="@dimen/horizontal_spacing_huge" android:paddingEnd="@dimen/horizontal_spacing_huge" style="@style/Gallery.TextAppearance.Info.Tip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

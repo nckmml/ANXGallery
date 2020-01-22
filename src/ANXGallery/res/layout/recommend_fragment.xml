@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.miui.gallery.widget.recyclerview.GalleryRecyclerView android:id="@id/recyclerview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/network_error" android:visibility="gone" layout="@layout/recommend_network_error" />
+    <include android:id="@id/loading_view" android:visibility="gone" layout="@layout/search_full_screen_loading_layout" />
+</FrameLayout>

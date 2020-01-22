@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/editor_beauty_recycler_view_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconView" android:layout_width="@dimen/video_editor_nav_item_img_width" android:layout_height="@dimen/video_editor_nav_item_img_width" android:layout_marginBottom="@dimen/video_editor_nav_img_margin_bottom" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="@dimen/editor_nav_item_text_size" android:textColor="@color/photo_editor_label_text_color" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/labelView" android:paddingBottom="@dimen/editor_beauty_menu_item_label_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="@dimen/editor_beauty_menu_item_label_padding_end" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest miui:name="com.miui.gallery" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <modules>
+        <module miui:name="com.miui.system" miui:minLevel="14" />
+        <module miui:name="com.miui.rom" miui:minLevel="11" />
+        <module miui:name="com.xiaomi.micloud.sdk" miui:minLevel="18" miui:dependencyType="installed" />
+    </modules>
+</manifest>

@@ -1,0 +1,131 @@
+package com.miui.gallery.baseui;
+
+public final class R {
+
+    public static final class dimen {
+        public static final int common_loading_progress_bar_size = 2131100000;
+        public static final int compare_btn_height = 2131100003;
+        public static final int compare_btn_horizontal_padding = 2131100004;
+        public static final int compare_btn_radius = 2131100005;
+        public static final int compare_btn_vertical_padding = 2131100006;
+        public static final int compare_btn_width = 2131100007;
+        public static final int compat_button_inset_horizontal_material = 2131100008;
+        public static final int compat_button_inset_vertical_material = 2131100009;
+        public static final int compat_button_padding_horizontal_material = 2131100010;
+        public static final int compat_button_padding_vertical_material = 2131100011;
+        public static final int compat_control_corner_material = 2131100012;
+        public static final int compat_notification_large_icon_max_height = 2131100013;
+        public static final int compat_notification_large_icon_max_width = 2131100014;
+        public static final int divider_line_height = 2131100082;
+        public static final int fastscroll_default_thickness = 2131100448;
+        public static final int fastscroll_margin = 2131100449;
+        public static final int fastscroll_minimum_range = 2131100450;
+        public static final int item_touch_helper_max_drag_scroll_per_frame = 2131100544;
+        public static final int item_touch_helper_swipe_escape_max_velocity = 2131100545;
+        public static final int item_touch_helper_swipe_escape_velocity = 2131100546;
+        public static final int loading_dialog_content_padding = 2131100556;
+        public static final int loading_text_margin_left = 2131100557;
+        public static final int loading_text_size = 2131100558;
+        public static final int miui_list_view_item_safe_padding_top_bottom = 2131100593;
+        public static final int notification_action_icon_size = 2131100674;
+        public static final int notification_action_text_size = 2131100675;
+        public static final int notification_big_circle_margin = 2131100676;
+        public static final int notification_content_margin_start = 2131100677;
+        public static final int notification_large_icon_height = 2131100678;
+        public static final int notification_large_icon_width = 2131100679;
+        public static final int notification_main_column_padding_top = 2131100680;
+        public static final int notification_media_narrow_margin = 2131100681;
+        public static final int notification_right_icon_size = 2131100682;
+        public static final int notification_right_side_padding_top = 2131100683;
+        public static final int notification_small_icon_background_padding = 2131100684;
+        public static final int notification_small_icon_size_as_large = 2131100685;
+        public static final int notification_subtext_size = 2131100686;
+        public static final int notification_top_pad = 2131100687;
+        public static final int notification_top_pad_large_text = 2131100688;
+        public static final int scroll_control_item_min_scroll_distance = 2131101022;
+        public static final int subtitle_corner_radius = 2131101178;
+        public static final int subtitle_outline_width = 2131101179;
+        public static final int subtitle_shadow_offset = 2131101180;
+        public static final int subtitle_shadow_radius = 2131101181;
+    }
+
+    public static final class id {
+        public static final int action0 = 2131296263;
+        public static final int action_container = 2131296277;
+        public static final int action_divider = 2131296281;
+        public static final int action_image = 2131296287;
+        public static final int action_text = 2131296309;
+        public static final int actions = 2131296310;
+        public static final int async = 2131296358;
+        public static final int blocking = 2131296380;
+        public static final int bottom = 2131296382;
+        public static final int cancel_action = 2131296403;
+        public static final int chronometer = 2131296430;
+        public static final int editor_adjust = 2131296539;
+        public static final int editor_audio = 2131296540;
+        public static final int editor_filter = 2131296541;
+        public static final int editor_itemIndex = 2131296542;
+        public static final int editor_more = 2131296543;
+        public static final int editor_nav = 2131296544;
+        public static final int editor_smart_effect = 2131296546;
+        public static final int editor_trim = 2131296547;
+        public static final int editor_viewHolder = 2131296549;
+        public static final int editor_water_mark = 2131296550;
+        public static final int end = 2131296556;
+        public static final int end_padder = 2131296557;
+        public static final int forever = 2131296620;
+        public static final int icon = 2131296669;
+        public static final int icon_group = 2131296671;
+        public static final int info = 2131296685;
+        public static final int italic = 2131296696;
+        public static final int item_touch_helper_previous_elevation = 2131296706;
+        public static final int left = 2131296729;
+        public static final int line1 = 2131296732;
+        public static final int line3 = 2131296733;
+        public static final int media_actions = 2131296761;
+        public static final int message = 2131296792;
+        public static final int none = 2131296818;
+        public static final int normal = 2131296819;
+        public static final int notification_background = 2131296823;
+        public static final int notification_main_column = 2131296824;
+        public static final int notification_main_column_container = 2131296825;
+        public static final int progress_bar = 2131296888;
+        public static final int right = 2131296947;
+        public static final int right_icon = 2131296949;
+        public static final int right_side = 2131296950;
+        public static final int screenshot_navigator_tag_id = 2131296973;
+        public static final int seekbar_thumb_active_state = 2131297005;
+        public static final int seekbar_thumb_reset_state = 2131297006;
+        public static final int start = 2131297052;
+        public static final int status_bar_latest_event_content = 2131297053;
+        public static final int tag_item_click_support = 2131297076;
+        public static final int tag_transition_group = 2131297084;
+        public static final int tag_unhandled_key_event_manager = 2131297085;
+        public static final int tag_unhandled_key_listeners = 2131297086;
+        public static final int text = 2131297088;
+        public static final int text2 = 2131297089;
+        public static final int time = 2131297112;
+        public static final int title = 2131297126;
+        public static final int top = 2131297133;
+    }
+
+    public static final class layout {
+        public static final int alert_dialog_loading = 2131427391;
+        public static final int common_loading_progress_bar = 2131427462;
+        public static final int notification_action = 2131427583;
+        public static final int notification_action_tombstone = 2131427584;
+        public static final int notification_media_action = 2131427585;
+        public static final int notification_media_cancel_action = 2131427586;
+        public static final int notification_template_big_media = 2131427587;
+        public static final int notification_template_big_media_custom = 2131427588;
+        public static final int notification_template_big_media_narrow = 2131427589;
+        public static final int notification_template_big_media_narrow_custom = 2131427590;
+        public static final int notification_template_custom_big = 2131427591;
+        public static final int notification_template_icon_group = 2131427592;
+        public static final int notification_template_lines_media = 2131427593;
+        public static final int notification_template_media = 2131427594;
+        public static final int notification_template_media_custom = 2131427595;
+        public static final int notification_template_part_chronometer = 2131427596;
+        public static final int notification_template_part_time = 2131427597;
+    }
+}

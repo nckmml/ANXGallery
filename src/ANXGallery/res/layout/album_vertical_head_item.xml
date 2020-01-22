@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.miui.gallery.widget.ForegroundImageView android:id="@id/ivAlbumPhoto" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="@dimen/album_vertical_head_item_margin_start" app:foregroundDrawable="@drawable/album_page_list_rect_item_fg" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Gallery.Widget.ThumbNail.Small"
+      xmlns:app="http://schemas.android.com/apk/res/com.miui.gallery" />
+    <TextView android:textSize="@dimen/album_vertical_head_item_title_text_size" android:textColor="@color/album_hidden_item_title" android:ellipsize="end" android:id="@id/tvAlbumTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/album_vertical_head_item_title_margin_top" android:maxWidth="@dimen/album_name_max_len" android:singleLine="true" android:layout_marginStart="@dimen/album_vertical_head_item_title_margin_start" app:layout_constraintStart_toEndOf="@id/ivAlbumPhoto" app:layout_constraintTop_toTopOf="@id/ivAlbumPhoto" />
+    <TextView android:textSize="@dimen/album_vertical_head_item_sub_title_text_size" android:textColor="@color/album_hidden_item_photo_number" android:id="@id/tvSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/album_vertical_head_item_sub_title_margin_top" android:layout_marginStart="@dimen/horizontal_spacing_huge" app:layout_constraintStart_toEndOf="@id/ivAlbumPhoto" app:layout_constraintTop_toBottomOf="@id/tvAlbumTitle" />
+</merge>

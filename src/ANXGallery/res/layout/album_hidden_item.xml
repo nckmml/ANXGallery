@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/album_vertical_head_item" />
+    <Button android:textAppearance="@style/Gallery.TextAppearance.List.Secondary" android:textSize="@dimen/album_hidden_item_button_text_size" android:textColor="@color/album_hidden_item_button_text" android:gravity="center" android:id="@id/btnCancelHidden" android:layout_width="@dimen/album_hidden_item_button_width" android:layout_height="@dimen/album_hidden_item_button_height" android:layout_marginTop="@dimen/album_item_button_margin_top" android:text="@string/album_hidden_item_button_title" android:layout_marginEnd="@dimen/album_item_button_margin_right" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Gallery.Widget.Button.Default" />
+</androidx.constraintlayout.widget.ConstraintLayout>
